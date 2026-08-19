@@ -1,7 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:name="com.pico.swan.focusbloom.platform.SpatialApplication"
-        android:label="Focus Bloom"
+        android:description="@string/app_description"
+        android:icon="@drawable/ic_spatial_pomodoro"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_spatial_pomodoro"
         android:theme="@style/Theme.FocusBloom">
         <meta-data
             android:name="com.pico.spatial.SPATIAL_APP"

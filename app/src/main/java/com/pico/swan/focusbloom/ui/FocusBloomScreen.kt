@@ -82,7 +82,7 @@ private fun HomeScreen(state: FocusBloomUiState, onEvent: (FocusBloomEvent) -> U
     BloomSurface {
         Column(Modifier.fillMaxSize().padding(36.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
             Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.Top) {
-                TitleBlock("Focus Bloom", "把开始专注变成一个小仪式")
+                TitleBlock("空间番茄钟", "把开始专注变成一个小仪式")
                 StatsChip("最近两周", "${state.history.size} 朵花")
             }
             Spacer(Modifier.height(8.dp))

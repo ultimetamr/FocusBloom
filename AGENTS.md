@@ -1,8 +1,8 @@
-# Focus Bloom project guidance
+# 空间番茄钟 (Focus Bloom) project guidance
 
 This directory is the isolated source of truth for Focus Bloom. Do not edit sibling projects when working on this app.
 
-Focus Bloom is a PICO OS 6 Shared Space planar spatial pomodoro MVP. Its package is `com.pico.swan.focusbloom`, and the launcher is `.platform.LaunchActivity`.
+空间番茄钟 is a PICO OS 6 Shared Space planar spatial pomodoro MVP. Its package remains `com.pico.swan.focusbloom`, and the launcher is `.platform.LaunchActivity`.
 
 Key areas:
 
