@@ -1,0 +1,25 @@
+# Android and Gradle generated files
+.gradle/
+.gradle-user-home/
+.kotlin/
+build/
+**/build/
+
+# Machine-local Android/PICO configuration
+local.properties
+.pico-env.json
+
+# IDE and OS metadata
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Local runtime evidence
+artifacts/
+
+# Signing material
+*.jks
+*.keystore
+keystore.properties
+

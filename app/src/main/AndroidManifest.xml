@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:name="com.pico.swan.focusbloom.platform.SpatialApplication"
+        android:label="Focus Bloom"
+        android:theme="@style/Theme.FocusBloom">
+        <meta-data
+            android:name="com.pico.spatial.SPATIAL_APP"
+            android:value="true" />
+        <activity
+            android:name="com.pico.swan.focusbloom.platform.LaunchActivity"
+            android:exported="true"
+            android:theme="@style/Theme.FocusBloom">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="pico.spatial.windowcontainer.id" android:value="FocusBloomHome" />
+            <meta-data android:name="pico.spatial.windowcontainer.style" android:value="1" />
+            <meta-data android:name="pico.spatial.windowcontainer.defaultsize" android:value="1280x720" />
+            <meta-data android:name="pico.spatial.windowcontainer.defaultsize.unit" android:value="dp" />
+            <meta-data android:name="pico.spatial.windowcontainer.resizetype" android:value="1" />
+            <meta-data android:name="pico.spatial.windowcontainer.materialbackground" android:value="1" />
+        </activity>
+    </application>
+</manifest>
